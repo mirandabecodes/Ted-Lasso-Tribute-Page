@@ -1,0 +1,132 @@
+@media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+  
+  *{
+  box-sizing: border-box;
+  }
+  
+  html {
+   scroll-padding-top: 150px;
+  }
+  
+  main{
+   padding-top: 250px;
+   margin: auto;
+  }
+  
+  h1{
+    text-align: right;
+    color:#FFD45A;
+    margin-left: 50px;
+  }
+  
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0176F2;
+    border-bottom: 8px solid #EA0406;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    gap: 1rem;
+  }
+  
+  nav > ul{
+    padding-inline-start: 0;
+    margin-block: 0;
+    text-align: right;
+    display: inline-block;
+  }
+  
+  nav > ul > li{
+    display: inline;
+    text-align: right;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+  }
+  
+  nav > ul > li:hover {
+    cursor: pointer;
+    background-color: #F7F6F4;
+  }
+  
+  ul > li > a{
+    text-decoration: none;
+  }
+  
+  body{
+    margin: 0;
+    background-color:#F7F6F4;
+    font-family: Nunito, futura, sans-serif;
+  }
+  
+  p{
+    padding: 20px 20px;
+  }
+  
+  p, ul {
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #021e73;
+    font-size: 2.4rem;
+    margin-top: 6rem;
+  }
+  
+  img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .img-div {
+    border: 50px solid #FFD45A;
+    max-width: 75%;
+    padding: 50px;
+    margin: 20px auto;
+    border-radius: 5px;
+  }
+  
+  a{
+    color: #FFD45A;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px 10px;
+  }
+  
+  .gallery img{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .text{
+    width: 80%;
+    margin: auto;
+    padding: 0px 40px;
+  }
+  
+  footer {
+    display: flex;
+    background-color: #021E73;
+    color:#FFD45A;
+    padding: 30px;
+  }
